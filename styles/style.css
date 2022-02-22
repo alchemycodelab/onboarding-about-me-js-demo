@@ -26,7 +26,7 @@ body {
     --gutter: 30px;
     --footer-height: 30px;
 
-    font-family: 'Titillium Web', sans-serif;
+    font-family: "Titillium Web", sans-serif;
     background-color: var(--color2);
 }
 
@@ -50,6 +50,8 @@ section {
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
 }
 
 header {
@@ -89,4 +91,16 @@ footer {
 
 .hidden {
     display: none;
+}
+
+#btn {
+    margin-bottom: 15px;
+    border-radius: 3px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    background-color: antiquewhite;
+}
+#animalDiv {
+    margin-bottom: 15px;
+    font-weight: bold;
 }
